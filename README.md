@@ -79,9 +79,9 @@ below. </p>
 You should also power the servo from a separate 5V power supply because peaks in the load 
 current are likely to crash or overload the Raspberry Pi.
 You will need:
-•	5V servo motor 
-•	1kΩ resistor 
-•	5V power supply</p>
+<br>•	5V servo motor 
+<br>•	1kΩ resistor 
+<br>•	5V power supply</p>
  </p>
 <p align="center"><img  src="https://github.com/zohaiburrehman/Servo-motor-controller-using-Raspberry-PI-Python/blob/master/images/bread_board.png"  ></p>
  
@@ -114,51 +114,10 @@ However, you can modify it so that the slider sets the angle, between 0 and 180 
 
 <h2 align="center">Pyhton Code</h2>
  
+<h6 align="center" >How to use files </h6>
 
-from tkinter import *
-import RPi.GPIO as GPIO
-import time
-
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(18, GPIO.OUT)
-pwm = GPIO.PWM(18, 100)
-pwm.start(5)
-
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(15, GPIO.OUT)
-pwm2 = GPIO.PWM(15, 100)
-pwm2.start(5)
-
-class App:
-	
-    def __init__(self, master):
-        frame = Frame(master)
-        frame.pack()
-        scale = Scale(frame, from_=0, to=180, 
-              orient=HORIZONTAL, command=self.update)
-        scale.grid(row=0)
-
-        scale = Scale(frame, from_=0, to=180, 
-              orient=HORIZONTAL, command=self.update2)
-        scale.grid(row=0,column=10)
-
-
-    def update(self, angle):
-        duty = float(angle) / 10.0 + 2.5
-        pwm.ChangeDutyCycle(duty)
-        
-    def update2(self, angle):
-        duty = float(angle) / 10.0 + 2.5
-        pwm2.ChangeDutyCycle(duty)
-        
-root = Tk()
-root.wm_title('Servo Control')
-app = App(root)
-root.geometry("200x50+0+0")
-root.mainloop()
-
-
-
+<p align="center"><a href="https://github.com/zohaiburrehman/Servo-motor-controller-using-Raspberry-PI-Python/blob/master/code/servo.py">servo.py</a> will work if you attach  Ruspberry Pi.
+Use <a href="https://github.com/zohaiburrehman/Servo-motor-controller-using-Raspberry-PI-Python/blob/master/code/servo_commented.py">servo_commented.py</a> just for GUI.  </p>
 
 
 <h3 align="center" >Servo Motor Applications</h3>
@@ -171,6 +130,4 @@ Of course, you don't have to know how a servo works to use one, but as with most
 
 
 
-<h2 align="center" >How to use files </h2>
-<p align="center">Servo.py will work if you attach  Ruspberry Pi.
-Use servo_commented.py just for GUI.  </p>
+
