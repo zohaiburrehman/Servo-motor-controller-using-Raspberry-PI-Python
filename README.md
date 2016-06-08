@@ -1,43 +1,17 @@
 # Servo Motor Controller using Raspberry-PI and Python
-This study examined that how anyone can control servo with Raspberry pi.
+<p align="center">This study examined that how anyone can control servo with Raspberry pi.
 You just need little bit knowledge of electronics and programming in python.
 This journal will help you to solve every problem regarding servo controlling, 
-whether it is for personal use or for industrial use
+whether it is for personal use or for industrial use</p>
 
 
 
 <img src="https://github.com/zohaiburrehman/Servo-motor-controller-using-Raspberry-PI-Python/blob/master/images/Pi2ModB1GB_-comp.jpeg">
 
 
+<h2 align="center" >WHAT IS A RASPBERRY PI?</h2>
 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h2>WHAT IS A RASPBERRY PI?</h2>
-
-Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or
+<p align="center" >Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or
 
 TV, and uses a standard keyboard and mouse. It is a capable little device that enables people of
 
@@ -51,83 +25,33 @@ machinery. What’s more, the Raspberry Pi  has the ability to interact with the
 
 has been used in a wide array of digital maker projects, from music machines and parent
 
-detectors to weather stations and tweeting birdhouses with infra-red cameras.
-.
+detectors to weather stations and tweeting birdhouses with infra-red cameras.</p>
+
+
+<h2 align="center" >Servomotor</h2>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Servomotor
-
-
-
-A servomotor is a rotary actuator or linear actuator that allows for precise control of angular or 
+<p align="center">A servomotor is a rotary actuator or linear actuator that allows for precise control of angular or 
 
 linear position, velocity and acceleration.  It consists of a suitable motor coupled to a sensor for 
 
 position feedback. It also requires a relatively sophisticated controller, often a dedicated module 
 
-designed specifically for use with servomotors.
+designed specifically for use with servomotors.</p>
 
+< h3 align="center">How Servo Motor Works</h3>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-How Servo Motor Works
-
-The servo hardware is manufactured right inside the engine unit and has a position able shaft, 
+<p align="center">The servo hardware is manufactured right inside the engine unit and has a position able shaft, 
 
 which for the most part  is fitted with an apparatus (as demonstrated as follows). The engine is 
 
-controlled with an electric sign which determines the amount of movement of the shaft. 
+controlled with an electric sign which determines the amount of movement of the shaft. </p>
 
 
+<h3 align="center">How is the Servo Controlled?</h3>
 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-How is the Servo Controlled?
-
-Servos are controlled by sending an electrical pulse of variable width, or pulse width 
+<p align="center">Servos are controlled by sending an electrical pulse of variable width, or pulse width 
 
 modulation  (PWM), through the control wire. There is a minimum pulse, a maximum pulse and 
 
@@ -145,7 +69,7 @@ motor turns. For example, a 1.5ms pulse will make the motor turn to the 90° pos
 
 than 1.5ms moves it to 0° and any longer than 1.5ms will turn the servo to 180°, as diagramed 
 
-below. 
+below. </p>
 
 
 
@@ -205,7 +129,7 @@ intended for controlling the brightness of an LED (“Controlling the Brightness
 
 However, you can modify it so that the slider sets the angle, between 0 and 180 degrees
 
-Pyhton Code
+<h2 align="center">Pyhton Code</h2>
  
 
 from tkinter import *
@@ -254,7 +178,7 @@ root.mainloop()
 
 
 
-Servo Motor Applications
+<h3 align="center" >Servo Motor Applications</h3>
 
 Servos are used in radio-controlled airplanes to position control surfaces like elevators, rudders, walking a robot or operatinggrippers. Servo motors are small, have built-in control circuitry and have good power for their size. 
 
@@ -264,6 +188,6 @@ Of course, you don't have to know how a servo works to use one, but as with most
 
 
 
-How to use files 
-Servo.py will work if you attach  Ruspberry Pi.
-Use servo_commented.py just for GUI.  
+<h2 align="center" >How to use files </h2>
+<p align="center">Servo.py will work if you attach  Ruspberry Pi.
+Use servo_commented.py just for GUI.  </p>
