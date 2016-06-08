@@ -40,7 +40,9 @@ position feedback. It also requires a relatively sophisticated controller, often
 
 designed specifically for use with servomotors.</p>
 
-< h3 align="center">How Servo Motor Works</h3>
+<h3 align="center" >How Servo Motor Works</h3>
+
+<img src="https://github.com/zohaiburrehman/Servo-motor-controller-using-Raspberry-PI-Python/blob/master/images/servo_lable.png" align="centre">
 
 <p align="center">The servo hardware is manufactured right inside the engine unit and has a position able shaft, 
 
