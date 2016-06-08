@@ -42,7 +42,7 @@ designed specifically for use with servomotors.</p>
 
 <h3 align="center" >How Servo Motor Works</h3>
 
-<img src="https://github.com/zohaiburrehman/Servo-motor-controller-using-Raspberry-PI-Python/blob/master/images/servo_lable.png" align="centre">
+<p align="center"><img  src="https://github.com/zohaiburrehman/Servo-motor-controller-using-Raspberry-PI-Python/blob/master/images/servo_lable.png"  ></p>
 
 <p align="center">The servo hardware is manufactured right inside the engine unit and has a position able shaft, 
 
@@ -72,37 +72,18 @@ motor turns. For example, a 1.5ms pulse will make the motor turn to the 90° pos
 than 1.5ms moves it to 0° and any longer than 1.5ms will turn the servo to 180°, as diagramed 
 
 below. </p>
+<p align="center"><img  src="https://github.com/zohaiburrehman/Servo-motor-controller-using-Raspberry-PI-Python/blob/master/images/servo_freq.png"  ></p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Use PWM to control the width of pulses to a servo motor to change its angle. Although this will work,
+<p>Use PWM to control the width of pulses to a servo motor to change its angle. Although this will work,
  the PWM generated is not completely stable, so there will be a little bit of jitter with the servo.
 You should also power the servo from a separate 5V power supply because peaks in the load 
 current are likely to crash or overload the Raspberry Pi.
 You will need:
 •	5V servo motor 
 •	1kΩ resistor 
-•	5V power supply
-
+•	5V power supply</p>
+ </p>
+<p align="center"><img  src="https://github.com/zohaiburrehman/Servo-motor-controller-using-Raspberry-PI-Python/blob/master/images/bread_board.png"  ></p>
  
 
 
