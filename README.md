@@ -1,8 +1,5 @@
-# Servo Motor Controller using Raspberry-PI and Python
-<p align="center">This study examined that how anyone can control servo with Raspberry pi.
-You just need little bit knowledge of electronics and programming in python.
-This journal will help you to solve every problem regarding servo controlling, 
-whether it is for personal use or for industrial use</p>
+# Servo Motor Controller using Raspberry PI and Python
+<p align="center">This study examined that how anyone can control servo with Raspberry pi. You just need little bit knowledge of electronics and programming in python. This journal will help you to solve every problem regarding servo controlling, whether it is for personal use or for industrial use</p>
 
 
 
